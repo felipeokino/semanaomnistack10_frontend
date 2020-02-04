@@ -26,7 +26,7 @@ function Home() {
   return (
     <Container id="app">
       <Aside>
-        <strong>Dev Form</strong>
+        <strong>Register Dev</strong>
         {<DevForm onSubmit={handleAddDev}/>}
       </Aside>
       <Main>
