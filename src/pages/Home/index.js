@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from "react";
-// import "./styles.css";
 import DevCard from "../../components/DevCard/";
 import Axios from "axios";
 import DevForm from "../../components/DevForm";
@@ -27,7 +26,7 @@ function Home() {
   return (
     <Container id="app">
       <Aside>
-        <strong>Register Form</strong>
+        <strong>Dev Form</strong>
         {<DevForm onSubmit={handleAddDev}/>}
       </Aside>
       <Main>
